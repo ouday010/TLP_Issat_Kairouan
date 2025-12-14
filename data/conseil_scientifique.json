@@ -1,0 +1,37 @@
+{
+  "Conseil_scientifique": {
+    "Direction": {
+      "Directeur": "Ayechi Errachdi",
+      "Secretaire_generale": "Karim el Gharat",
+      "Directeur_des_etudes": "Mehdi Rahmani"
+    },
+    "Directeurs_de_departement": {
+      "Departement_genie_mecanique": "Jamel Madyouli",
+      "Departement_genie_electrique": "Mohamed Nidhal Krifa",
+      "Departement_mathematique_physique_informatique": "Khaled Ben Abdessalam"
+    },
+    "Membres": {
+      "Corps_A": [
+        "Prof. Hedi Khammeri",
+        "Dr. Abdelkader Krifa",
+        "Dr. Radhouane Haj Tahar",
+        "Dr. Mehdi Rahmeni"
+      ],
+      "Corps_B": [
+        "Dr. Nihel Khmiri",
+        "Dr. Ilyes Mrabet",
+        "Dr. Abdelaziz Zaidi",
+        "Dr. Fathi Gharbi"
+      ]
+    },
+    "Representants_des_etudiants": {
+      "Licence": [
+        "Mariem Chtioui",
+        "Oumayma Ajmi"
+      ],
+      "Mastere": [
+        "Iheb Thebti"
+      ]
+    }
+  }
+}

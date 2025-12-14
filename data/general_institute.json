@@ -1,0 +1,7 @@
+{
+  "presentation": "L'ISSAT Kairouan est un institut supérieur des études appliquées et de technologie relevant de l'Université de Kairouan.",
+  "contacts": {
+    "scolarite": {"email": "scolarite@issatkr.rnu.tn", "tel": "+216 77 235 333"},
+    "general": {"adresse": "Route Tunis km 7, 3100 Kairouan", "site": "https://issatkr.rnu.tn/"}
+  }
+}

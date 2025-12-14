@@ -1,0 +1,79 @@
+{
+  "Presentation": {
+    "Creation": {
+      "Annee": 2005,
+      "Decret": "n°1971 du 14 Juillet 2005"
+    },
+    "Etablissement": {
+      "Nom": "Institut Supérieur des Sciences Appliquées et de Technologie de Kairouan",
+      "Abreviation": "ISSAT de Kairouan",
+      "Statut": "Etablissement public à caractère scientifique et technologique",
+      "Universite": "Université de Kairouan"
+    },
+    "Formations": {
+      "Licences": [
+        "Licence en Ingénierie des Systèmes Informatiques",
+        "Licence en Génie Mécanique",
+        "Licence en Génie énergétique",
+        "Licence en électronique électrotechnique & Automatique"
+      ],
+      "Masters_Recherche": [
+        "Master Recherche en Data Science",
+        "Master Recherche en Automatique & Informatique Industrielle"
+      ],
+      "Masters_Professionnels": [
+        "Master Professionnel en Commandes des Systèmes Industriels",
+        "Master Professionnel en Gestion de Maintenance des Systèmes Industriels",
+        "Master Professionnel en Génie Mécanique"
+      ]
+    },
+    "Direction": {
+      "Directeur": "Dr. Ayachi Errachdi",
+      "Secretaire_general": "M. Elgarat Karim"
+    },
+    "Infrastructure": {
+      "Capacite": {
+        "Etudiants": 1500,
+        "Enseignants": "Environ 80",
+        "Ratio": "1 enseignant pour 11 étudiants"
+      },
+      "Amphis": {
+        "Amphi_de_conference": 1,
+        "Amphis": 2
+      },
+      "Salles_enseignement": 25,
+      "Laboratoires": [
+        "Laboratoire d’informatique",
+        "Laboratoire d’électrotechnique",
+        "Laboratoire d’électrotechnique numérique",
+        "Laboratoire d’électrotechnique analogique",
+        "Laboratoire électronique de puissance",
+        "Laboratoire de mesure et instrumentation",
+        "Laboratoire d’asservissement et régulation",
+        "Laboratoire de pneumatique",
+        "Laboratoire d’API",
+        "Laboratoire RLI : réseaux locaux industriels",
+        "Laboratoire de physique et d’électronique numérique",
+        "Laboratoire d’automatique et régulation",
+        "Laboratoire de productique et résistance des matériaux",
+        "Laboratoire d’énergétique et matériaux",
+        "Laboratoire de mécanique des fluides",
+        "Laboratoire de thermodynamique et transfert thermique",
+        "Laboratoire de métrologie et contrôle non destructif",
+        "Laboratoire de mécanique générale",
+        "Laboratoire de résistance des matériaux",
+        "Laboratoire de sciences des matériaux",
+        "Laboratoire de pneumatique industriel"
+      ],
+      "Ateliers": [
+        "Atelier de travaux de projet fin d’études",
+        "Atelier de construction métallique",
+        "Atelier de fabrication"
+      ],
+      "Autres": [
+        "Centre d’accès d’Enseignement Virtuel (UVT)",
+        "Bibliothèque (capacité ~100 étudiants)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "Enseignants": [
+    {
+      "Nom_prenom": "Hedi Khammari",
+      "Grade": "Professeur de l'enseignement Supérieur",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Khemiri Chatbri Nihel",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Ben Ammar Imen",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "BNOUNI Chiraz",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "LIOUANE Hend",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Ilyes MRABET",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Abdelwaheb IFA",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": "Analyse semi-classique microlocale et théorie spectrale"
+    },
+    {
+      "Nom_prenom": "Malek Ben Salem",
+      "Grade": "Maître assistant",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Jabnouni Hedi",
+      "Grade": "Professeur tronc commun",
+      "Discipline_specialites": {
+        "Informatique": [
+          "Programmation C et Java",
+          "Bureautique : Word, Excel, PowerPoint",
+          "Systèmes d'exploitation : Windows et Linux",
+          "Bases de données"
+        ]
+      }
+    },
+    {
+      "Nom_prenom": "Guesmi Ihsen",
+      "Grade": "Professeur tronc commun",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Trad Olfa",
+      "Grade": "Professeur de l'enseignement secondaire",
+      "Discipline_specialites": "Langue, Lettres et Civilisation Anglaise"
+    },
+    {
+      "Nom_prenom": "Chatty Lilya",
+      "Grade": "Professeur de l'enseignement secondaire",
+      "Discipline_specialites": null
+    },
+    {
+      "Nom_prenom": "Mnari Maroua",
+      "Grade": "Professeur de l'enseignement secondaire",
+      "Discipline_specialites": null
+    }
+  ]
+}

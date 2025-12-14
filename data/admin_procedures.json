@@ -1,0 +1,404 @@
+[
+  {
+    "id": "attestation_scolarite",
+    "name": "Demande d'attestation de scolarité",
+    "description": "Document officiel certifiant l'inscription de l'étudiant à l'ISSAT pour l'année universitaire en cours. Nécessaire pour diverses démarches administratives (banque, transport, bourses, etc.).",
+    "steps": [
+      "1. Se présenter au service scolarité pendant les heures d'ouverture (8h-12h et 14h-16h).",
+      "2. Remplir le formulaire de demande d'attestation (disponible sur place ou téléchargeable).",
+      "3. Présenter la carte d'étudiant ou la carte d'identité nationale.",
+      "4. Apposer un timbre fiscal de 1 DT (acheté à la recette des finances ou bureau de tabac).",
+      "5. Déposer la demande au guichet avec tous les documents requis.",
+      "6. Retirer l'attestation signée et cachetée après traitement (généralement le jour même ou le lendemain)."
+    ],
+    "documents": [
+      "Carte d'identité nationale (CIN) ou carte d'étudiant",
+      "Timbre fiscal de 1 DT",
+      "Formulaire de demande rempli"
+    ],
+    "deadlines": "Traitement immédiat ou dans les 24-48 heures ouvrables",
+    "office": "Service Scolarité - Bureau des attestations",
+    "cost": "1 DT (timbre fiscal)",
+    "validity": "Valable pour l'année universitaire en cours",
+    "statuses": {
+      "pending": "En cours de traitement",
+      "accepted": "Prête à retirer",
+      "rejected": "Refusée (raisons communiquées sur place)"
+    },
+    "notes": "L'attestation peut être demandée plusieurs fois dans l'année. Prévoir un délai supplémentaire en période d'examens."
+  },
+  {
+    "id": "attestation_presence",
+    "name": "Attestation de présence",
+    "description": "Document officiel certifiant la présence effective de l'étudiant aux cours durant une période donnée. Utilisée pour justifier l'assiduité auprès d'organismes externes (CNSS, bourses, employeurs, etc.).",
+    "steps": [
+      "1. Se présenter au service scolarité avec la carte d'étudiant.",
+      "2. Remplir le formulaire de demande d'attestation de présence en précisant la période concernée.",
+      "3. Fournir un justificatif de la demande (lettre de l'organisme demandeur si applicable).",
+      "4. Apposer un timbre fiscal de 1 DT.",
+      "5. Le service vérifie le registre de présence et le taux d'assiduité de l'étudiant.",
+      "6. Si le taux de présence est satisfaisant (≥75%), l'attestation est délivrée sous 2-3 jours ouvrables.",
+      "7. Retirer l'attestation signée par le chef de département et cachetée par la scolarité."
+    ],
+    "documents": [
+      "Carte d'identité nationale ou carte d'étudiant",
+      "Formulaire de demande rempli avec période précise",
+      "Timbre fiscal de 1 DT",
+      "Justificatif de la demande (si requis par l'organisme)"
+    ],
+    "conditions": [
+      "Taux de présence minimum de 75% pour la période demandée",
+      "Aucune absence non justifiée excessive",
+      "Être en règle avec la scolarité (pas d'élimination en cours)"
+    ],
+    "deadlines": "Traitement sous 2-3 jours ouvrables après vérification du registre",
+    "office": "Service Scolarité - Chef de département",
+    "cost": "1 DT (timbre fiscal)",
+    "validity": "Valable pour la période mentionnée sur l'attestation",
+    "statuses": {
+      "pending": "En cours de vérification du registre de présence",
+      "accepted": "Attestation délivrée (taux de présence satisfaisant)",
+      "rejected": "Refusée (taux de présence insuffisant ou absences excessives)"
+    },
+    "notes": "L'attestation mentionne le taux de présence exact. En cas de taux insuffisant (<75%), une attestation peut être refusée ou mentionner le taux réel."
+  },
+  {
+    "id": "reclamation_notes",
+    "name": "Réclamation / Contestation de note",
+    "description": "Procédure permettant à l'étudiant de contester une note d'examen ou de contrôle continu qu'il estime erronée. La réclamation entraîne une révision de la copie par l'enseignant et/ou une commission pédagogique.",
+    "steps": [
+      "1. Attendre la publication officielle des notes (affichage physique ou plateforme en ligne).",
+      "2. Dans un délai strict de 3 jours ouvrables après l'affichage, se présenter au service scolarité.",
+      "3. Remplir le formulaire de réclamation en précisant : matière, type d'épreuve, note contestée, motif de contestation.",
+      "4. Joindre une copie de la carte d'étudiant.",
+      "5. Payer les frais de réclamation via timbre fiscal (montant selon règlement intérieur : généralement 5 DT).",
+      "6. Déposer le dossier complet au service scolarité qui enregistre la demande.",
+      "7. La réclamation est transmise à l'enseignant concerné pour révision de la copie.",
+      "8. En cas de désaccord persistant, la réclamation peut être examinée par le chef de département ou une commission pédagogique.",
+      "9. Le résultat final (note maintenue, modifiée à la hausse ou à la baisse) est communiqué par écrit sous 7 à 15 jours.",
+      "10. La décision de la commission est définitive et sans appel."
+    ],
+    "documents": [
+      "Formulaire de réclamation officiel rempli et signé",
+      "Copie de la carte d'étudiant (recto-verso)",
+      "Timbre fiscal de 5 DT (ou montant selon règlement)",
+      "Copie du relevé de notes (si disponible)"
+    ],
+    "deadlines": "Délai impératif de 3 jours ouvrables suivant l'affichage officiel des notes. Passé ce délai, aucune réclamation ne sera acceptée.",
+    "office": "Service Scolarité → Enseignant → Chef de département → Commission pédagogique (si nécessaire)",
+    "cost": "5 DT (timbre fiscal) - Remboursé si la note est modifiée à la hausse",
+    "statuses": {
+      "pending": "En attente d'examen par l'enseignant",
+      "under_review": "En cours de révision de la copie",
+      "commission_review": "Examen par la commission pédagogique",
+      "accepted": "Note modifiée (à la hausse ou à la baisse)",
+      "rejected": "Réclamation refusée - Note maintenue (motif détaillé fourni)"
+    },
+    "important_notes": [
+      "⚠️ La note peut être modifiée à la HAUSSE ou à la BAISSE suite à la révision",
+      "Le délai de 3 jours est strict et commence dès l'affichage officiel",
+      "Une seule réclamation par matière et par session est autorisée",
+      "Les frais sont remboursés uniquement si la note augmente",
+      "La décision finale de la commission pédagogique est sans appel"
+    ],
+    "motifs_reclamation": [
+      "Erreur de calcul ou de report de note",
+      "Question non corrigée ou oubliée",
+      "Désaccord sur le barème de notation",
+      "Copie incomplète ou pages manquantes",
+      "Erreur d'identification de copie"
+    ]
+  },
+  {
+    "id": "reclamation_examen",
+    "name": "Réclamation concernant le déroulement d'un examen",
+    "description": "Procédure pour signaler une irrégularité ou un problème survenu pendant le déroulement d'un examen (conditions inadéquates, problème de sujet, incident, etc.).",
+    "steps": [
+      "1. Signaler immédiatement le problème au surveillant pendant l'examen si possible.",
+      "2. Rédiger un rapport écrit détaillé dans les 24 heures suivant l'examen.",
+      "3. Déposer le rapport au service scolarité avec témoignages d'autres étudiants si applicable.",
+      "4. Le chef de département examine la réclamation et peut convoquer les parties concernées.",
+      "5. Une décision est prise : maintien de l'examen, annulation, ou réorganisation d'une session de rattrapage.",
+      "6. La décision est communiquée par écrit sous 5 à 7 jours."
+    ],
+    "documents": [
+      "Rapport écrit détaillé et signé",
+      "Carte d'étudiant",
+      "Témoignages écrits d'autres étudiants (si applicable)",
+      "Photos ou preuves du problème (si disponibles)"
+    ],
+    "deadlines": "Rapport à déposer dans les 24 heures suivant l'examen",
+    "office": "Service Scolarité → Chef de département → Direction",
+    "motifs_valables": [
+      "Conditions d'examen inadéquates (bruit, température, éclairage)",
+      "Sujet d'examen erroné ou incomplet",
+      "Durée d'examen non respectée",
+      "Incident technique (panne électrique, etc.)",
+      "Problème de santé collectif",
+      "Erreur dans la distribution des sujets"
+    ],
+    "statuses": {
+      "pending": "Réclamation en cours d'examen",
+      "investigation": "Enquête en cours",
+      "accepted": "Réclamation acceptée - Mesures correctives prises",
+      "rejected": "Réclamation non fondée"
+    }
+  },
+  {
+    "id": "demande_stage",
+    "name": "Demande de stage (PFE ou stage d'été)",
+    "description": "Procédure pour obtenir l'autorisation officielle de stage et la convention de stage tripartite (étudiant-entreprise-ISSAT).",
+    "steps": [
+      "1. Trouver une entreprise d'accueil et obtenir un accord de principe.",
+      "2. Se présenter au service des stages avec les informations de l'entreprise.",
+      "3. Remplir le formulaire de demande de stage en précisant : type de stage, période, entreprise, encadrant.",
+      "4. Fournir une lettre d'acceptation de l'entreprise (cachet et signature).",
+      "5. Le service des stages prépare la convention tripartite (3 exemplaires).",
+      "6. Faire signer la convention par l'encadrant académique désigné.",
+      "7. Retourner au service des stages pour signature du directeur et cachet de l'ISSAT.",
+      "8. Remettre un exemplaire à l'entreprise, conserver un exemplaire, et laisser un au service des stages.",
+      "9. Effectuer le stage selon les modalités convenues.",
+      "10. Remettre le rapport de stage et les documents d'évaluation dans les délais impartis."
+    ],
+    "documents": [
+      "Formulaire de demande de stage rempli",
+      "Lettre d'acceptation de l'entreprise (originale, cachetée et signée)",
+      "Copie CIN de l'étudiant",
+      "Carte d'étudiant",
+      "Attestation d'assurance (si requise)",
+      "Fiche de renseignements sur l'entreprise"
+    ],
+    "types_stages": {
+      "stage_ete": {
+        "name": "Stage d'été (optionnel)",
+        "duree": "1 à 2 mois pendant les vacances d'été",
+        "niveau": "Après la 1ère ou 2ème année",
+        "objectif": "Découverte du milieu professionnel"
+      },
+      "stage_pfe": {
+        "name": "Stage de fin d'études (PFE)",
+        "duree": "4 à 6 mois (semestre 6 pour licence, semestre 4 pour master)",
+        "niveau": "Dernière année",
+        "objectif": "Projet de fin d'études avec soutenance",
+        "credits": "30 crédits"
+      },
+      "stage_ouvrier": {
+        "name": "Stage ouvrier",
+        "duree": "2 à 4 semaines",
+        "niveau": "1ère ou 2ème année",
+        "objectif": "Découverte de l'environnement industriel"
+      }
+    },
+    "deadlines": "Demande à déposer au moins 15 jours avant le début du stage. Pour le PFE : dépôt dès le début du semestre concerné.",
+    "office": "Service des Stages et Relations avec l'Entreprise",
+    "cost": "Gratuit (convention de stage)",
+    "statuses": {
+      "pending": "Demande en cours de traitement",
+      "convention_preparation": "Convention en cours de préparation",
+      "signature_required": "En attente de signatures",
+      "accepted": "Convention signée et validée",
+      "rejected": "Demande refusée (motif précisé)"
+    },
+    "notes": "L'étudiant doit être en règle avec la scolarité. Pour le PFE, un encadrant académique est obligatoire."
+  },
+  {
+    "id": "demande_transfert",
+    "name": "Demande de transfert vers un autre établissement",
+    "description": "Procédure pour transférer son dossier académique de l'ISSAT vers un autre établissement d'enseignement supérieur en Tunisie ou à l'étranger.",
+    "steps": [
+      "1. Obtenir une acceptation de principe de l'établissement d'accueil.",
+      "2. Rédiger une demande manuscrite adressée au directeur de l'ISSAT expliquant les motifs du transfert.",
+      "3. Joindre la lettre d'acceptation de l'établissement d'accueil.",
+      "4. Déposer le dossier au service scolarité.",
+      "5. Le dossier est examiné par le chef de département puis le directeur.",
+      "6. En cas d'acceptation, le service scolarité prépare le dossier de transfert (relevés de notes, programmes, etc.).",
+      "7. Retirer le dossier de transfert cacheté et scellé (ne pas ouvrir).",
+      "8. Remettre le dossier à l'établissement d'accueil."
+    ],
+    "documents": [
+      "Demande manuscrite adressée au directeur",
+      "Lettre d'acceptation de l'établissement d'accueil (originale)",
+      "Relevés de notes de toutes les années",
+      "Copie CIN",
+      "Certificat de scolarité",
+      "Quitus (attestation de non-dette envers l'ISSAT)"
+    ],
+    "conditions": [
+      "Être en règle avec la scolarité (pas de dettes)",
+      "Avoir validé au moins un semestre à l'ISSAT",
+      "Obtenir l'acceptation de l'établissement d'accueil",
+      "Motif valable de transfert"
+    ],
+    "deadlines": "Demande à déposer avant la fin du semestre en cours. Traitement sous 15 à 30 jours.",
+    "office": "Service Scolarité → Chef de département → Direction",
+    "cost": "Gratuit",
+    "statuses": {
+      "pending": "Demande en cours d'examen",
+      "accepted": "Transfert accepté - Dossier en préparation",
+      "rejected": "Transfert refusé (motif communiqué)"
+    },
+    "notes": "Le transfert est définitif. L'étudiant ne peut plus se réinscrire à l'ISSAT après transfert sauf dérogation exceptionnelle."
+  },
+  {
+    "id": "demande_equivalence",
+    "name": "Demande d'équivalence de diplôme ou de modules",
+    "description": "Procédure pour faire reconnaître des études ou modules suivis dans un autre établissement afin d'obtenir des équivalences et éviter de refaire certains cours.",
+    "steps": [
+      "1. Rédiger une demande d'équivalence adressée au directeur.",
+      "2. Rassembler tous les documents académiques de l'établissement d'origine (relevés de notes, programmes détaillés, descriptifs de cours).",
+      "3. Déposer le dossier complet au service scolarité.",
+      "4. Le dossier est transmis à une commission pédagogique qui étudie les équivalences possibles.",
+      "5. La commission compare les programmes, volumes horaires, et contenus des cours.",
+      "6. Une décision d'équivalence totale, partielle, ou de refus est rendue.",
+      "7. L'étudiant reçoit une notification écrite précisant les modules équivalents et ceux à refaire.",
+      "8. En cas d'équivalence partielle, l'étudiant peut devoir passer des examens complémentaires."
+    ],
+    "documents": [
+      "Demande manuscrite d'équivalence",
+      "Relevés de notes officiels (originaux ou copies certifiées)",
+      "Programmes détaillés des cours suivis (syllabi)",
+      "Descriptifs des modules avec volumes horaires",
+      "Diplômes obtenus (copies certifiées)",
+      "Attestation de l'établissement d'origine",
+      "Copie CIN"
+    ],
+    "types_equivalence": {
+      "equivalence_totale": "Tous les modules sont reconnus - Passage direct au niveau supérieur",
+      "equivalence_partielle": "Certains modules reconnus - Autres à refaire ou examens complémentaires",
+      "equivalence_refusee": "Aucune équivalence accordée - Reprise complète du cursus"
+    },
+    "deadlines": "Demande à déposer lors de l'inscription ou au début du semestre. Traitement sous 30 à 45 jours.",
+    "office": "Service Scolarité → Commission pédagogique → Direction",
+    "cost": "Gratuit",
+    "statuses": {
+      "pending": "Dossier en cours d'examen",
+      "commission_review": "Examen par la commission pédagogique",
+      "accepted_total": "Équivalence totale accordée",
+      "accepted_partial": "Équivalence partielle accordée",
+      "rejected": "Équivalence refusée"
+    },
+    "criteres_evaluation": [
+      "Similarité des contenus de cours (≥70% de correspondance)",
+      "Volume horaire comparable (±20%)",
+      "Niveau académique équivalent",
+      "Accréditation de l'établissement d'origine",
+      "Notes obtenues (généralement ≥12/20 pour équivalence)"
+    ],
+    "notes": "Les équivalences sont accordées au cas par cas. La décision de la commission est souveraine."
+  },
+  {
+    "id": "demande_reinscription",
+    "name": "Demande de réinscription après interruption",
+    "description": "Procédure pour se réinscrire à l'ISSAT après une interruption d'études (abandon, congé, exclusion temporaire, etc.).",
+    "steps": [
+      "1. Rédiger une demande de réinscription adressée au directeur en expliquant les motifs de l'interruption.",
+      "2. Joindre les justificatifs de l'interruption (certificat médical, justificatifs professionnels, etc.).",
+      "3. Fournir les anciens relevés de notes et documents académiques.",
+      "4. Déposer le dossier au service scolarité avant la date limite d'inscription.",
+      "5. Le dossier est examiné par une commission qui évalue la demande.",
+      "6. En cas d'acceptation, l'étudiant doit régulariser sa situation administrative et payer les frais d'inscription.",
+      "7. Un entretien avec le chef de département peut être requis pour déterminer le niveau de réinscription.",
+      "8. L'étudiant reçoit une notification d'acceptation ou de refus avec les conditions de réinscription."
+    ],
+    "documents": [
+      "Demande manuscrite de réinscription",
+      "Justificatifs de l'interruption (certificats médicaux, attestations, etc.)",
+      "Anciens relevés de notes",
+      "Copie CIN",
+      "Photos d'identité récentes",
+      "Quitus de l'année précédente (si applicable)",
+      "Certificat de scolarité de l'année d'interruption (si inscrit ailleurs)"
+    ],
+    "conditions": [
+      "Interruption ne dépassant pas 3 ans (sauf cas exceptionnels)",
+      "Motif valable d'interruption",
+      "Être en règle avec l'administration (pas de dettes)",
+      "Places disponibles dans le niveau demandé"
+    ],
+    "cas_particuliers": {
+      "interruption_medicale": "Justificatif médical obligatoire - Réinscription généralement acceptée",
+      "interruption_volontaire": "Examen au cas par cas - Entretien requis",
+      "exclusion_disciplinaire": "Réinscription possible après expiration de la sanction",
+      "echec_multiple": "Réinscription conditionnée à un engagement de réussite"
+    },
+    "deadlines": "Demande à déposer pendant la période d'inscription (généralement juillet-septembre). Traitement sous 15 jours.",
+    "office": "Service Scolarité → Commission pédagogique → Direction",
+    "cost": "Frais d'inscription normaux + éventuels frais de dossier",
+    "statuses": {
+      "pending": "Demande en cours d'examen",
+      "interview_required": "Entretien requis avec le chef de département",
+      "accepted": "Réinscription acceptée - Régularisation administrative requise",
+      "accepted_conditional": "Réinscription acceptée sous conditions",
+      "rejected": "Réinscription refusée (motif précisé)"
+    },
+    "notes": "La réinscription n'est pas automatique. L'étudiant peut être réinscrit au même niveau ou au niveau inférieur selon son parcours."
+  },
+  {
+    "id": "demande_retrait_diplome",
+    "name": "Retrait de diplôme",
+    "description": "Procédure pour retirer son diplôme de licence ou de master après validation de toutes les conditions de graduation.",
+    "steps": [
+      "1. S'assurer d'avoir validé tous les modules et crédits requis (180 crédits pour licence, 120 pour master).",
+      "2. Vérifier que le rapport de stage/PFE a été déposé et la soutenance validée.",
+      "3. Obtenir un quitus (attestation de non-dette) auprès du service financier.",
+      "4. Se présenter au service scolarité avec la carte d'étudiant et la CIN.",
+      "5. Remplir le formulaire de demande de diplôme.",
+      "6. Payer les frais de diplôme (timbre fiscal).",
+      "7. Le diplôme est préparé et signé par le directeur (délai : 2 à 6 mois selon période).",
+      "8. Retirer le diplôme en personne avec CIN ou par procuration notariée."
+    ],
+    "documents": [
+      "Carte d'identité nationale (originale)",
+      "Carte d'étudiant",
+      "Quitus (attestation de non-dette)",
+      "Formulaire de demande de diplôme",
+      "Timbre fiscal (montant selon règlement)",
+      "Photos d'identité récentes (2 photos)",
+      "Procuration notariée (si retrait par tiers)"
+    ],
+    "conditions": [
+      "Validation de tous les crédits requis (180 pour licence, 120 pour master)",
+      "Soutenance de PFE validée avec note ≥10/20",
+      "Aucune dette envers l'ISSAT",
+      "Dépôt du rapport de stage/PFE en version finale",
+      "Moyenne générale ≥10/20"
+    ],
+    "deadlines": "Le diplôme est disponible 2 à 6 mois après la délibération finale. Retrait possible à tout moment après disponibilité.",
+    "office": "Service Scolarité - Bureau des diplômes",
+    "cost": "Timbre fiscal (montant variable selon le diplôme : généralement 10-20 DT)",
+    "types_diplomes": {
+      "licence": "Diplôme national de licence (Bac+3, 180 crédits)",
+      "master_professionnel": "Diplôme national de master professionnel (Bac+5, 120 crédits)",
+      "master_recherche": "Diplôme national de master recherche (Bac+5, 120 crédits)"
+    },
+    "statuses": {
+      "pending": "Diplôme en cours de préparation",
+      "ready": "Diplôme prêt à retirer",
+      "delivered": "Diplôme retiré"
+    },
+    "notes": "En attendant le diplôme, une attestation de réussite provisoire peut être délivrée. Le diplôme doit être retiré dans les 5 ans, sinon il sera archivé."
+  },
+  {
+    "id": "demande_officielle",
+    "name": "Demande officielle générale (congé, autorisation, etc.)",
+    "description": "Procédure générale pour toute demande officielle nécessitant une autorisation administrative (congé exceptionnel, autorisation d'absence, participation à un événement, etc.).",
+    "steps": [
+      "1. Rédiger une demande manuscrite ou utiliser le modèle disponible à la scolarité.",
+      "2. Indiquer clairement : objet de la demande, dates concernées, motifs détaillés.",
+      "3. Joindre les pièces justificatives pertinentes.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

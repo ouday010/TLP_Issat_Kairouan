@@ -1,0 +1,28 @@
+{
+  "Directeurs_et_Responsables": {
+    "Direction": {
+      "Directeur": "Ayechi Errachdi",
+      "Directeur_des_etudes": "Mehdi Rahmani",
+      "Directeur_des_stages": "Slah Farhani"
+    },
+    "Directions_des_departements": {
+      "Genie_mecanique": "Jamel Madiouli",
+      "Genie_electrique": "Mohamed Nidhal Krifa",
+      "Mathematique_physique_informatique": "Khaled Ben Abdessalem"
+    },
+    "Centres": {
+      "Centre_4C": "Nihel Khmiri",
+      "Centre_mediation_resolution_conflits": [
+        "Abdelaziz Zaidi",
+        "Abdelhamid Jalloul"
+      ]
+    },
+    "Responsables_masters": {
+      "Master_recherche_data_science": "Wissem Ben Fradj",
+      "Master_recherche_automatique_informatique_industrielle": "Ayechi Errachdi",
+      "Master_professionnel_genie_mecanique": "Nihel Khmiri",
+      "Master_professionnel_commande_systemes_industriels": "Amara Saidi",
+      "Master_professionnel_gestion_maintenance_systemes_industriels": "Anis Korbi"
+    }
+  }
+}

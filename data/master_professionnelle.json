@@ -1,0 +1,1258 @@
+[
+  {
+    "Parcours": "Génie Mécanique",
+    "Semestres": [
+      {
+        "Semestre": "1",
+        "Total_Cours": 189,
+        "Total_TD": 115.5,
+        "Total_TP": 84,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": 5,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE1.1",
+            "Libelle_UE": "Fondamentale : (Mécanique appliquée)",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Technologie de production mécanique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Technologie de conception mécanique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Atelier mécanique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE1.2",
+            "Libelle_UE": "Fondamentale : (informatique appliqué)",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Informatique industrielle",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Technologie et Réseaux",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Atelier informatique appliqué",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE1.3",
+            "Libelle_UE": "Fondamentale : (Technologie Mécanique)",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "RDM & Mécanique des milieux déformable",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Mécanique des fluides",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Atelier technologie mécanique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE1.4",
+            "Libelle_UE": "Transversale :",
+            "Cr_UE": 4,
+            "Coef_UE": 4,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Anglais scientifique 1",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Gestion d’innovation et qualité",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Création entreprise et partenariat",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE1.5",
+            "Libelle_UE": "Optionnelle :",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Ondes et propagation",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Notion de Mécanique vibratoire",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Atelier mécanisme & vibrations",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "2",
+        "Total_Cours": 189,
+        "Total_TD": 105,
+        "Total_TP": 105,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": null,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE.2.1",
+            "Libelle_UE": "Fondamentale : (Réseaux industriels)",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Réseaux locaux industriels",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "- Système temps réel",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier réseaux",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.2.2",
+            "Libelle_UE": "Fondamentale : (Transfert et chaleur)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Transfert thermique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Combustion",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier transfert thermique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.2.3",
+            "Libelle_UE": "Fondamentale : (Systèmes Automatisés de Production)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "- Elément de productiques et optimisation",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Systèmes organisationnels",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "- Atelier SAP",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.2.4",
+            "Libelle_UE": "Transversale : (Mécanisme et structure)",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Analyse des mécanismes",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Métaux et structure",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier Technologie des Matériaux",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.2.5",
+            "Libelle_UE": "Optionnelle : (CFAO)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-CAO",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-FAO",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier CFAO",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "3",
+        "Total_Cours": 178.5,
+        "Total_TD": 115.5,
+        "Total_TP": 105,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": null,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE.3.1",
+            "Libelle_UE": "Fondamentale : (Audits Energétiques)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Source,stockage et Transport de l’énergie",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "- Audits Energétiques",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Atelier Audits",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.3.2",
+            "Libelle_UE": "Fondamentale : Automatique)",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Automatique linéaire et non linéaire",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Commande multivariable linéaire et non linéaire",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier Automatique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.3.3",
+            "Libelle_UE": "Fondamentale : (Systèmes hydrauliques et Pneumatiques)",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Hydraulique industrielle",
+                "Cours": 21,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "- Pneumatique industrielle",
+                "Cours": 21,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier Systèmes hydraulique et pneumatique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.3.4",
+            "Libelle_UE": "Transversales : (Projet Personnel)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Projet Pratique de synthèse",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Projet Séminaire de Recherche Appliquée",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Anglais & Communication",
+                "Cours": 10.5,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE.3.5",
+            "Libelle_UE": "Optionnelle : (Energie Renouvelable)",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Génie climatique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Energie solaire et énergie éolienne",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier énergie renouvelable",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "4",
+        "Total_Credits": 30,
+        "Total_Coefficients": 30,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE.1.1",
+            "Libelle_UE": "Stages ou projet de fin d’études",
+            "Cr_UE": 30,
+            "Coef_UE": 30,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Stages ou projet de fin d’études",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 30,
+                "Coef_ECUE": 30,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Parcours": "Management et Maintenance des Systèmes Industriels",
+    "Semestres": [
+      {
+        "Semestre": "1",
+        "Total_Cours": 211,
+        "Total_TD": 136.5,
+        "Total_TP": 63,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": null,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE1",
+            "Libelle_UE": "Mathématiques et Informatique",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Processus stochastiques",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-programmation structurelle",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-programmation orienté objet",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE2",
+            "Libelle_UE": "Tenue en service des matériaux",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Tribologie",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Endommagement et corrosion",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de matériaux",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE3",
+            "Libelle_UE": "Mécanique appliquée",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Mécanique des solides",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Dynamique des systèmes mécanique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de mécanique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE4",
+            "Libelle_UE": "Techniques de maintenance",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Méthodes de maintenance",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Sureté de fonctionnement",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Diagnostic et contrôle des systèmes industriels",
+                "Cours": 0,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE5",
+            "Libelle_UE": "Electrotechnique et électricité industrielle",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Electrotechnique",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Electricité industrielle",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier d’électrotechnique et électricité industrielle",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "2",
+        "Total_Cours": 189,
+        "Total_TD": 126,
+        "Total_TP": 84,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": null,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE6",
+            "Libelle_UE": "Culture d’entreprise langue",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "- Management des entreprises",
+                "Cours": 10.5,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Anglais des affaires",
+                "Cours": 10.5,
+                "TD": 21,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2,
+                "Coef_ECUE": 2,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Mini projet : conduite de projet",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE7",
+            "Libelle_UE": "Automatique",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Automate programmable",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Régulation industrielle",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier automatique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE8",
+            "Libelle_UE": "Management de la qualité appliquée à la maintenance",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Méthodes et outils de la qualité",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Management des systèmes QHSE",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier GQAO",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE9",
+            "Libelle_UE": "Techniques Industrielles",
+            "Cr_UE": 7,
+            "Coef_UE": 7,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Techniques de production",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Soudure et chaudronnerie",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 3,
+                "Coef_ECUE": 3,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de fabrication",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE10",
+            "Libelle_UE": "Normalisation",
+            "Cr_UE": 5,
+            "Coef_UE": 5,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Mesure, analyse et amélioration",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "Certification et normalisation",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "3",
+        "Total_Cours": 189,
+        "Total_TD": 105,
+        "Total_TP": 105,
+        "Total_Autres": 0,
+        "Total_Credits": 30,
+        "Total_Coefficients": null,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE11",
+            "Libelle_UE": "Management des processus de production",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Gestion de la production",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Modélisation et simulation des flux",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de simulation des flux",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE12",
+            "Libelle_UE": "Organisation de la maintenance",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Management des services de maintenance",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Outils de maintenance",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de GMAO",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE13",
+            "Libelle_UE": "Maintenance appliquée",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Maintenance des systèmes mécatroniques",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Maintenance des systèmes électroniques",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de maintenance",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE14",
+            "Libelle_UE": "Régulation et contrôle des systèmes énergétiques",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Machines thermiques",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Hydraulique et pneumatique",
+                "Cours": 21,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de thermodynamique",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          },
+          {
+            "Code_UE": "UE15",
+            "Libelle_UE": "Métrologie et Contrôle des systèmes",
+            "Cr_UE": 6,
+            "Coef_UE": 6,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "-Contrôle non destructif",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Métrologie",
+                "Cours": 10.5,
+                "TD": 10.5,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 2.5,
+                "Coef_ECUE": 2.5,
+                "Modalite_Evaluation": "Régime mixte"
+              },
+              {
+                "Libelle_ECUE": "-Atelier de métrologie",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 21,
+                "Autres": 0,
+                "Cr_ECUE": 1,
+                "Coef_ECUE": 1,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "4",
+        "Total_Credits": 30,
+        "Total_Coefficients": 30,
+        "Unites_Enseignement": [
+          {
+            "Code_UE": "UE16",
+            "Libelle_UE": "Stages ou projet de fin d’études",
+            "Cr_UE": 30,
+            "Coef_UE": 30,
+            "ECUEs": [
+              {
+                "Libelle_ECUE": "Stages ou projet de fin d’études",
+                "Cours": 0,
+                "TD": 0,
+                "TP": 0,
+                "Autres": 0,
+                "Cr_ECUE": 30,
+                "Coef_ECUE": 30,
+                "Modalite_Evaluation": "Régime mixte"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

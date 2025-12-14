@@ -1,0 +1,33 @@
+{
+  "Direction": {
+    "AttachedUnits": [
+      "Comité qualité",
+      "Management du SMQE",
+      "Conseil scientifique",
+      "4C"
+    ],
+    "Direction_des_etudes": {
+      "Commissions_de_matieres": true,
+      "Departements": [
+        "Département informatique",
+        "Département génie mécanique",
+        "Département génie électronique"
+      ]
+    },
+    "Direction_des_stages": {
+      "Mission": "Ouverture sur l’environnement et insertion professionnelle"
+    },
+    "Secretariat_general": [
+      "Scolarité",
+      "Examens et délibérations",
+      "Bibliothèque",
+      "Finances et achats",
+      "Gestion des ressources humaines",
+      "Maintenance",
+      "Informatique",
+      "Service généraux",
+      "Bureau d’ordre, archives, tirage",
+      "Infirmerie, gardiennage, jardinage, nettoyage"
+    ]
+  }
+}

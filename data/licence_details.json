@@ -1,0 +1,347 @@
+{
+  "licences": [
+    {
+      "id": "licence_informatique",
+      "nom": "Licence en Ingénierie des Systèmes Informatiques (ISI)",
+      "nom_court": "Licence Informatique",
+      "description": "Formation complète en informatique couvrant le développement logiciel, les réseaux, les bases de données, l'intelligence artificielle et les systèmes d'information. Prépare aux métiers de l'ingénierie informatique et du développement.",
+      "duree": "3 ans (6 semestres)",
+      "total_credits": 180,
+      "diplome": "Licence Nationale en Ingénierie des Systèmes Informatiques",
+      "conditions_admission": {
+        "bac_requis": "Bac Mathématiques, Sciences Expérimentales, Sciences Techniques, ou Informatique",
+        "moyenne_minimale": "10/20 (peut varier selon les années)",
+        "concours": "Admission sur dossier via orientation universitaire nationale",
+        "documents": [
+          "Relevé de notes du Bac",
+          "Copie CIN",
+          "Fiche d'orientation",
+          "Photos d'identité"
+        ]
+      },
+      "competences_acquises": [
+        "Programmation (C, C++, Java, Python, JavaScript)",
+        "Développement web (HTML, CSS, PHP, frameworks modernes)",
+        "Bases de données (SQL, NoSQL, conception)",
+        "Réseaux informatiques et sécurité",
+        "Systèmes d'exploitation (Windows, Linux)",
+        "Génie logiciel et UML",
+        "Intelligence artificielle et machine learning",
+        "Développement mobile (Android, iOS)",
+        "Administration systèmes et réseaux",
+        "Gestion de projets informatiques"
+      ],
+      "domaines_etude": [
+        "Algorithmique et structures de données",
+        "Programmation orientée objet",
+        "Développement d'applications web et mobile",
+        "Architecture des ordinateurs",
+        "Systèmes d'exploitation",
+        "Réseaux et protocoles",
+        "Bases de données relationnelles et NoSQL",
+        "Sécurité informatique et cryptographie",
+        "Intelligence artificielle",
+        "Traitement d'images",
+        "Compilation et langages formels",
+        "Ingénierie logicielle"
+      ],
+      "debouches_professionnels": [
+        "Développeur logiciel / Ingénieur développement",
+        "Développeur web full-stack",
+        "Développeur mobile (Android/iOS)",
+        "Administrateur systèmes et réseaux",
+        "Ingénieur DevOps",
+        "Data scientist / Analyste de données",
+        "Consultant en systèmes d'information",
+        "Chef de projet informatique",
+        "Ingénieur sécurité informatique",
+        "Architecte logiciel",
+        "Testeur / Ingénieur QA",
+        "Enseignant / Formateur en informatique"
+      ],
+      "poursuite_etudes": [
+        "Master Professionnel en Informatique",
+        "Master Recherche en Informatique / Data Science",
+        "Écoles d'ingénieurs (sur concours)",
+        "Masters spécialisés (IA, Cybersécurité, Big Data, etc.)"
+      ],
+      "structure_programme": {
+        "annee_1": "Tronc commun : Mathématiques, Physique, Algorithmique, Programmation de base",
+        "annee_2": "Approfondissement : POO, Bases de données, Réseaux, Systèmes, Développement web",
+        "annee_3": "Spécialisation : IA, Sécurité, Développement avancé, Projet de fin d'études"
+      },
+      "langues_enseignement": "Français (cours magistraux) et Arabe (certains modules)",
+      "stage_obligatoire": {
+        "type": "Stage de fin d'études (PFE)",
+        "duree": "4 à 6 mois",
+        "credits": 30,
+        "semestre": "Semestre 6",
+        "objectif": "Projet professionnel en entreprise avec soutenance"
+      }
+    },
+    {
+      "id": "licence_genie_mecanique",
+      "nom": "Licence en Génie Mécanique",
+      "nom_court": "Licence Mécanique",
+      "description": "Formation en conception mécanique, fabrication, matériaux et systèmes mécaniques. Couvre la CAO/FAO, la mécanique des fluides, la thermodynamique et les procédés de fabrication.",
+      "duree": "3 ans (6 semestres)",
+      "total_credits": 180,
+      "diplome": "Licence Nationale en Génie Mécanique",
+      "conditions_admission": {
+        "bac_requis": "Bac Mathématiques, Sciences Techniques, ou Sciences Expérimentales",
+        "moyenne_minimale": "10/20 (peut varier selon les années)",
+        "concours": "Admission sur dossier via orientation universitaire nationale",
+        "documents": [
+          "Relevé de notes du Bac",
+          "Copie CIN",
+          "Fiche d'orientation",
+          "Photos d'identité"
+        ]
+      },
+      "parcours_disponibles": [
+        "Conception et Production Intégrée (CPI)",
+        "Génie Mécanique général"
+      ],
+      "competences_acquises": [
+        "Conception mécanique et CAO (SolidWorks, CATIA)",
+        "Fabrication assistée par ordinateur (FAO)",
+        "Résistance des matériaux et calcul de structures",
+        "Mécanique des fluides et thermodynamique",
+        "Procédés de fabrication (usinage, soudage, fonderie)",
+        "Sciences des matériaux et métallurgie",
+        "Automatisation et robotique industrielle",
+        "Maintenance industrielle",
+        "Métrologie et contrôle qualité",
+        "Gestion de production"
+      ],
+      "domaines_etude": [
+        "Dessin technique et CAO",
+        "Mécanique générale (statique, cinématique, dynamique)",
+        "Résistance des matériaux",
+        "Mécanique des fluides",
+        "Thermodynamique et transfert thermique",
+        "Sciences des matériaux",
+        "Procédés de fabrication mécanique",
+        "Électrotechnique et automatismes",
+        "Métrologie et contrôle dimensionnel",
+        "Maintenance industrielle",
+        "Gestion de la production"
+      ],
+      "debouches_professionnels": [
+        "Ingénieur conception mécanique",
+        "Ingénieur méthodes et industrialisation",
+        "Ingénieur bureau d'études",
+        "Responsable production",
+        "Ingénieur maintenance industrielle",
+        "Technicien supérieur en mécanique",
+        "Dessinateur projeteur",
+        "Contrôleur qualité",
+        "Ingénieur calcul et simulation",
+        "Chef de projet industriel"
+      ],
+      "poursuite_etudes": [
+        "Master Professionnel en Génie Mécanique",
+        "Master en Conception et Production Intégrée",
+        "Master en Maintenance Industrielle",
+        "Écoles d'ingénieurs (sur concours)"
+      ],
+      "structure_programme": {
+        "annee_1": "Tronc commun : Mathématiques, Physique, Mécanique de base, Dessin technique, CAO",
+        "annee_2": "Approfondissement : RDM, Mécanique des fluides, Matériaux, Procédés, Électrotechnique",
+        "annee_3": "Spécialisation : Conception avancée, FAO, Automatisation, Projet de fin d'études"
+      },
+      "langues_enseignement": "Français (cours magistraux) et Arabe (certains modules)",
+      "stage_obligatoire": {
+        "type": "Stage de fin d'études (PFE)",
+        "duree": "4 à 6 mois",
+        "credits": 30,
+        "semestre": "Semestre 6",
+        "objectif": "Projet industriel en entreprise avec soutenance"
+      }
+    },
+    {
+      "id": "licence_genie_energetique",
+      "nom": "Licence en Génie Énergétique",
+      "nom_court": "Licence Énergétique",
+      "description": "Formation spécialisée dans les systèmes énergétiques, les énergies renouvelables, la thermique industrielle et l'efficacité énergétique. Prépare aux métiers de l'énergie et du développement durable.",
+      "duree": "3 ans (6 semestres)",
+      "total_credits": 180,
+      "diplome": "Licence Nationale en Génie Énergétique",
+      "conditions_admission": {
+        "bac_requis": "Bac Mathématiques, Sciences Techniques, ou Sciences Expérimentales",
+        "moyenne_minimale": "10/20 (peut varier selon les années)",
+        "concours": "Admission sur dossier via orientation universitaire nationale",
+        "documents": [
+          "Relevé de notes du Bac",
+          "Copie CIN",
+          "Fiche d'orientation",
+          "Photos d'identité"
+        ]
+      },
+      "parcours_disponibles": [
+        "Énergies Renouvelables",
+        "Génie Énergétique général"
+      ],
+      "competences_acquises": [
+        "Thermodynamique et transfert thermique",
+        "Énergies renouvelables (solaire, éolien, biomasse)",
+        "Systèmes énergétiques et conversion d'énergie",
+        "Efficacité énergétique et audit énergétique",
+        "Mécanique des fluides appliquée",
+        "Électrotechnique et machines électriques",
+        "Climatisation et génie climatique",
+        "Installations thermiques industrielles",
+        "Gestion et optimisation énergétique",
+        "Réglementation thermique et environnementale"
+      ],
+      "domaines_etude": [
+        "Thermodynamique appliquée",
+        "Transfert de chaleur et de masse",
+        "Mécanique des fluides",
+        "Énergies renouvelables (solaire, éolien)",
+        "Systèmes de conversion d'énergie",
+        "Machines thermiques",
+        "Électrotechnique",
+        "Climatisation et froid industriel",
+        "Audit et efficacité énergétique",
+        "Combustion et chaudières",
+        "Réglementation énergétique"
+      ],
+      "debouches_professionnels": [
+        "Ingénieur énergéticien",
+        "Chargé d'études énergies renouvelables",
+        "Auditeur énergétique",
+        "Responsable efficacité énergétique",
+        "Ingénieur thermicien",
+        "Technicien supérieur en énergies renouvelables",
+        "Consultant en maîtrise de l'énergie",
+        "Ingénieur en génie climatique",
+        "Chef de projet énergies renouvelables",
+        "Responsable maintenance énergétique"
+      ],
+      "poursuite_etudes": [
+        "Master en Énergies Renouvelables",
+        "Master en Efficacité Énergétique",
+        "Master en Génie Énergétique",
+        "Écoles d'ingénieurs (sur concours)"
+      ],
+      "structure_programme": {
+        "annee_1": "Tronc commun : Mathématiques, Physique, Thermodynamique, Mécanique des fluides",
+        "annee_2": "Approfondissement : Transfert thermique, Énergies renouvelables, Électrotechnique, Machines thermiques",
+        "annee_3": "Spécialisation : Systèmes énergétiques, Audit énergétique, Projet de fin d'études"
+      },
+      "langues_enseignement": "Français (cours magistraux) et Arabe (certains modules)",
+      "stage_obligatoire": {
+        "type": "Stage de fin d'études (PFE)",
+        "duree": "4 à 6 mois",
+        "credits": 30,
+        "semestre": "Semestre 6",
+        "objectif": "Projet énergétique en entreprise avec soutenance"
+      }
+    },
+    {
+      "id": "licence_eea",
+      "nom": "Licence en Électronique, Électrotechnique et Automatique (EEA)",
+      "nom_court": "Licence EEA",
+      "description": "Formation pluridisciplinaire couvrant l'électronique, l'électrotechnique, l'automatique et l'informatique industrielle. Prépare aux métiers de l'automatisation, du contrôle et des systèmes embarqués.",
+      "duree": "3 ans (6 semestres)",
+      "total_credits": 180,
+      "diplome": "Licence Nationale en Électronique, Électrotechnique et Automatique",
+      "conditions_admission": {
+        "bac_requis": "Bac Mathématiques, Sciences Techniques, ou Sciences Expérimentales",
+        "moyenne_minimale": "10/20 (peut varier selon les années)",
+        "concours": "Admission sur dossier via orientation universitaire nationale",
+        "documents": [
+          "Relevé de notes du Bac",
+          "Copie CIN",
+          "Fiche d'orientation",
+          "Photos d'identité"
+        ]
+      },
+      "parcours_disponibles": [
+        "Automatique et Informatique Industrielle",
+        "Électronique et Systèmes Embarqués"
+      ],
+      "competences_acquises": [
+        "Électronique analogique et numérique",
+        "Électrotechnique et machines électriques",
+        "Automatique et régulation",
+        "Automates programmables industriels (API)",
+        "Informatique industrielle et temps réel",
+        "Traitement du signal",
+        "Systèmes embarqués et microcontrôleurs",
+        "Réseaux industriels et supervision",
+        "Instrumentation et capteurs",
+        "Robotique industrielle"
+      ],
+      "domaines_etude": [
+        "Électronique analogique et numérique",
+        "Électrotechnique et conversion d'énergie",
+        "Machines électriques",
+        "Automatique (asservissement, régulation)",
+        "Automates programmables (PLC)",
+        "Informatique industrielle",
+        "Traitement du signal",
+        "Microcontrôleurs et systèmes embarqués",
+        "Réseaux locaux industriels",
+        "Instrumentation et métrologie",
+        "Robotique et vision industrielle"
+      ],
+      "debouches_professionnels": [
+        "Ingénieur automaticien",
+        "Ingénieur en systèmes embarqués",
+        "Technicien supérieur en automatisme",
+        "Ingénieur électronicien",
+        "Responsable maintenance automatismes",
+        "Programmeur d'automates industriels",
+        "Ingénieur en robotique industrielle",
+        "Technicien en instrumentation",
+        "Ingénieur contrôle-commande",
+        "Chef de projet automatisation"
+      ],
+      "poursuite_etudes": [
+        "Master en Automatique et Informatique Industrielle",
+        "Master en Systèmes Embarqués",
+        "Master en Robotique",
+        "Écoles d'ingénieurs (sur concours)"
+      ],
+      "structure_programme": {
+        "annee_1": "Tronc commun : Mathématiques, Physique, Électronique de base, Électrotechnique, Informatique",
+        "annee_2": "Approfondissement : Automatique, API, Traitement du signal, Microcontrôleurs, Machines électriques",
+        "annee_3": "Spécialisation : Systèmes automatisés, Robotique, Réseaux industriels, Projet de fin d'études"
+      },
+      "langues_enseignement": "Français (cours magistraux) et Arabe (certains modules)",
+      "stage_obligatoire": {
+        "type": "Stage de fin d'études (PFE)",
+        "duree": "4 à 6 mois",
+        "credits": 30,
+        "semestre": "Semestre 6",
+        "objectif": "Projet d'automatisation ou systèmes embarqués en entreprise avec soutenance"
+      }
+    }
+  ],
+  "informations_generales": {
+    "systeme_lmd": {
+      "description": "Toutes les licences suivent le système LMD (Licence-Master-Doctorat) harmonisé avec l'espace européen",
+      "structure": "6 semestres, 30 crédits par semestre, 180 crédits total",
+      "validation": "Moyenne générale ≥10/20 et validation de tous les modules"
+    },
+    "frais_inscription": {
+      "tunisiens": "Environ 200-300 DT par an (droits universitaires)",
+      "etrangers": "Variable selon accords bilatéraux",
+      "bourses": "Bourses disponibles selon critères sociaux"
+    },
+    "calendrier_academique": {
+      "semestre_1": "Septembre à Janvier",
+      "semestre_2": "Février à Juin",
+      "examens": "Janvier et Juin (+ session de rattrapage en Septembre)",
+      "vacances": "Juillet-Août (été), 2 semaines (hiver)"
+    },
+    "evaluation": {
+      "controle_continu": "40% de la note finale (tests, TP, projets)",
+      "examen_final": "60% de la note finale",
+      "note_passage": "10/20 minimum par module",
+      "compensation": "Possible entre modules d'une même unité d'enseignement"
+    }
+  }
+}

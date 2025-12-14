@@ -1,0 +1,12 @@
+{
+  "difference": "Absence justifiée : absence soutenue par un justificatif officiel accepté (certificat médical, convocation administrative, etc.). Elle n'entraîne pas de pénalité.\nAbsence non justifiée : absence sans justificatif valide ou déposé hors délai. Elle compte dans le calcul des pénalités et peut mener à un avertissement ou élimination.",
+  "submit_how": "1. Obtenir un justificatif officiel (certificat médical original, etc.).\n2. Déposer le justificatif au service scolarité dans les délais.\n3. Remplir le formulaire de justification d'absence si requis.\n4. Le service vérifie et met à jour le statut.",
+  "deadlines": "Dans les 3 jours ouvrables suivant le retour en cours (ou immédiatement pour les justificatifs administratifs). Tout dépôt hors délai rend l'absence non justifiée.",
+  "statuses": {
+    "en_attente": "Justificatif déposé et en cours de vérification par la scolarité",
+    "acceptee": "Justificatif validé → absence excusée, aucune pénalité",
+    "refusee": "Justificatif non conforme ou hors délai → absence considérée comme non justifiée"
+  },
+  "warning_logic": "À partir de 3 absences non justifiées dans un même module au cours d'un semestre : avertissement écrit remis à l'étudiant et transmis aux parents/tuteurs.",
+  "elimination_logic": "4 absences non justifiées dans un même module au cours d'un semestre entraînent l'élimination du module (interdiction de passer l'examen final et note éliminatoire)."
+}

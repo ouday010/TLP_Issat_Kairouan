@@ -1,0 +1,2612 @@
+[
+  {
+    "Parcours": "Automatique et Informatique Industrielle",
+    "Semestres": [
+      {
+        "Semestre": "1",
+        "Modules": [
+          {
+            "Libelle": "Electronique 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "57359870",
+                "Libelle": "Circuits électriques",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "57359860",
+                "Libelle": "Electronique numérique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Informatique 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683117",
+                "Libelle": "algorithmique et programmation",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573683116",
+                "Libelle": "systèmes d'exploitation",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electricité générale",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683113",
+                "Libelle": "électrostatique et magnétostatique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "573683114",
+                "Libelle": "mécanique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mathématiques 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683112",
+                "Libelle": "algèbre 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573683111",
+                "Libelle": "analyse 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "langues et compétences",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573682151",
+                "Libelle": "Anglais 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "7",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573682152",
+                "Libelle": "C2I 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "7",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "2",
+        "Modules": [
+          {
+            "Libelle": "Electromagnétisme",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683232",
+                "Libelle": "électromagnétisme",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "573683233",
+                "Libelle": "thermodynamique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mathématiques 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683221",
+                "Libelle": "analyse 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573683222",
+                "Libelle": "algèbre 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Informatique 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573683234",
+                "Libelle": "programmation avancée",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573683235",
+                "Libelle": "bases de données",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electronique 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "57359881",
+                "Libelle": "Fonctions d'électronique numérique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "57359880",
+                "Libelle": "Electronique analogique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "langues et compétences",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573682252",
+                "Libelle": "C2I 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "7",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573682251",
+                "Libelle": "Anglais 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "7",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "3",
+        "Modules": [
+          {
+            "Libelle": "Traitement du signal 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636321",
+                "Libelle": "traitement du signal analogique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "573636322",
+                "Libelle": "Transmission des données",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Automatique 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636312",
+                "Libelle": "Instrumentation et métrologie",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573636311",
+                "Libelle": "Automatique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electronique pour l'embarqué",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636332",
+                "Libelle": "Architecture des microprocesseurs et microcontrôleurs",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573636331",
+                "Libelle": "Fonctions d'lectronique analogique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences digitales",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636341",
+                "Libelle": "Techniques de communication 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "0",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "14"
+                }
+              },
+              {
+                "Code_EE": "573636342",
+                "Libelle": "Culture d'entreprise",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "14",
+                  "TD": "0",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "14"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "ueo",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "169916844",
+                "Libelle": "électrotechnique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "7",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169916845",
+                "Libelle": "Electronique de Puissance",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "7",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "4",
+        "Modules": [
+          {
+            "Libelle": "Systémes intelligents",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636431",
+                "Libelle": "Vision Industrielle",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573636432",
+                "Libelle": "Apprentissage et outils d'aide à la décision",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Systémes automatisé 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636422",
+                "Libelle": "Systèmes automatisés",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573636421",
+                "Libelle": "Automate programmable industriel",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Automatique 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636412",
+                "Libelle": "Représentation d'états et analyse des SL",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "573636411",
+                "Libelle": "Asservissement & Régulation continue",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences digitales",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636441",
+                "Libelle": "Techniques de communication 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573636442",
+                "Libelle": "Management d'équipe et Leadership",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "ueo",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "169916847",
+                "Libelle": "Réseaux des capteurs sans fils",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169916846",
+                "Libelle": "Circuits logique Programmables (FPGA) et DSP",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "5",
+        "Modules": [
+          {
+            "Libelle": "Système Automatisés 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636521",
+                "Libelle": "Systémes à événements discrets",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573636522",
+                "Libelle": "Sureté de fonctionnement des systèmes",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Automatique 3",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636511",
+                "Libelle": "Asservissement et Régulation discret",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              },
+              {
+                "Code_EE": "573636512",
+                "Libelle": "Représentation d'etats et analyse des SNL",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "52.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Traitement de signal",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636532",
+                "Libelle": "Transmission analogique et numérique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573636531",
+                "Libelle": "Filtrage numérique",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573636541",
+                "Libelle": "Anglais 3",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573636542",
+                "Libelle": "Droit social et droit du travail",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Réseaux Industriels",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "169927760",
+                "Libelle": "Réseaux Locaux industriels (RII)",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169927761",
+                "Libelle": "Capteur & chaine de mesure",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Réseaux industriels",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "169923808",
+                "Libelle": "Réseaux Locaux industriels (RII)",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.05",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169923807",
+                "Libelle": "automates Programmables",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "mx",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "10.5",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "6",
+        "Modules": [
+          {
+            "Libelle": "Stage de fin d'études",
+            "Cr_Module": "30",
+            "Coef_Module": "15",
+            "Subjects": [
+              {
+                "Code_EE": "573630611",
+                "Libelle": "Stage de fin d'études",
+                "Coef_Subject": "15",
+                "Cr_Subject": "30",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "378",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "378"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Parcours": "Conception et production intégrée",
+    "Semestres": [
+      {
+        "Semestre": "1",
+        "Modules": [
+          {
+            "Libelle": "Electricité 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573899131",
+                "Libelle": "Electronique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899133",
+                "Libelle": "Atelier : Electricité 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899132",
+                "Libelle": "Electrotechnique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Matériaux et Procédés 1",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573899123",
+                "Libelle": "Atelier",
+                "Coef_Subject": "0.5",
+                "Cr_Subject": "1",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899121",
+                "Libelle": "Procédés 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899122",
+                "Libelle": "Sciences des matériaux 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Conception et Modélisation 1",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573899112",
+                "Libelle": "Conception 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899113",
+                "Libelle": "Atelier : Mécanique DAO",
+                "Coef_Subject": "0.5",
+                "Cr_Subject": "1",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899111",
+                "Libelle": "Mécanique 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mathématiques 1",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573899141",
+                "Libelle": "Analyse 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899142",
+                "Libelle": "Algébre 1",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences 1",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "573896112",
+                "Libelle": "Techniques avancées de communication 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573896111",
+                "Libelle": "English for scientific purposes 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "2",
+        "Modules": [
+          {
+            "Libelle": "Mathématiques 2",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573899241",
+                "Libelle": "Analyse 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899242",
+                "Libelle": "Statistiques",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electricité 2/ Informatique",
+            "Cr_Module": "6",
+            "Coef_Module": "3",
+            "Subjects": [
+              {
+                "Code_EE": "573899232",
+                "Libelle": "Algorithmique et programmation",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899231",
+                "Libelle": "Circuits et shémas électriques",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573899233",
+                "Libelle": "Atelier : Electricité 2 / informatique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "0",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Matériaux et Procédés 2",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573899224",
+                "Libelle": "Procédés 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899225",
+                "Libelle": "Sciences des matériaux 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899226",
+                "Libelle": "Atelier",
+                "Coef_Subject": "0.5",
+                "Cr_Subject": "1",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Conception et Modélisation 2",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573899222",
+                "Libelle": "Conception 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899223",
+                "Libelle": "Atelier : Mécanique 2/ CAO)",
+                "Coef_Subject": "0.5",
+                "Cr_Subject": "1",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573899221",
+                "Libelle": "Mécanique 2",
+                "Coef_Subject": "1.5",
+                "Cr_Subject": "3",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences 2",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "573896114",
+                "Libelle": "Techniques avancées de communication 2",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573896113",
+                "Libelle": "English for scientific purposes 2",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "3",
+        "Modules": [
+          {
+            "Libelle": "Automatique",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810332",
+                "Libelle": "Régulation et Asservissement",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810331",
+                "Libelle": "Automatismes Industriels",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810333",
+                "Libelle": "Atelier :Automatique/ Asservissement",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mécanique des Fluides et Thermique",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810323",
+                "Libelle": "Atelier:Mécanique des Fluides/Thermique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810321",
+                "Libelle": "Mécanique des Fluides",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573810322",
+                "Libelle": "Thermique Industrielle",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Conception et Modélisation 3",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810312",
+                "Libelle": "Conception 3",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573810311",
+                "Libelle": "Mécanique Vibratoire et Calcul",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573810313",
+                "Libelle": "Atelier:CAO3/Mécanique 3",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et Compétences 3",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "573810341",
+                "Libelle": "Technique de Communication 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810342",
+                "Libelle": "Culture de l'Entrprise",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "UE:Mini Projet",
+            "Cr_Module": "5",
+            "Coef_Module": "2.5",
+            "Subjects": [
+              {
+                "Code_EE": "169916858",
+                "Libelle": "Initiation aux Mini Projets",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169916859",
+                "Libelle": "Mini Projet Personnalisé",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "cc",
+                "Volume_Horaire": {
+                  "Cours": "",
+                  "TD": "",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "4",
+        "Modules": [
+          {
+            "Libelle": "Conception et Fabrication Assistée par Ordinateur",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810413",
+                "Libelle": "Atelier : CAO-FAO",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "573810412",
+                "Libelle": "FAO",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810411",
+                "Libelle": "CAO",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Production des Métaux",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810432",
+                "Libelle": "Corrosion et Protection des Métaux",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810433",
+                "Libelle": "Atelier: Métaux",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810431",
+                "Libelle": "Tribologie et Lubrification",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Conception et Production Intégrée",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810422",
+                "Libelle": "Ingénierie Système",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810421",
+                "Libelle": "Analyse Fonctionnelle",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810423",
+                "Libelle": "Atelier: Conception et Production Intégrée",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et Compétences4",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "573810442",
+                "Libelle": "Management d'Equipe et Leadership",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810441",
+                "Libelle": "Technique de Communication 2",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "UE:Systèmes de vision",
+            "Cr_Module": "5",
+            "Coef_Module": "2.5",
+            "Subjects": [
+              {
+                "Code_EE": "169916861",
+                "Libelle": "Apprentissage et outils d'aide à la décision",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169916860",
+                "Libelle": "Vision Industrielle",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "5",
+        "Modules": [
+          {
+            "Libelle": "CND et qualité",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810513",
+                "Libelle": "Controle non destructif",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810514",
+                "Libelle": "Controle qualité",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810515",
+                "Libelle": "Atelier CND et qualité",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mécanique",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810563",
+                "Libelle": "Atelier mécanique expérimentale",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810511",
+                "Libelle": "Plan d'expérience",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810512",
+                "Libelle": "Recherche opérationnelle et optimisation",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Logistique",
+            "Cr_Module": "5",
+            "Coef_Module": "2.5",
+            "Subjects": [
+              {
+                "Code_EE": "573810517",
+                "Libelle": "Gestion d'une chaine logistique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              },
+              {
+                "Code_EE": "573810518",
+                "Libelle": "Modélisation et controle des systèmes de production",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "31.5"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et compétences",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "573810519",
+                "Libelle": "Projet linguistique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "573810520",
+                "Libelle": "Droit social et droit du travail",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Eco-conception",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "169923804",
+                "Libelle": "Eco-conception et fabrication des systèmes Mécaniques",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169923805",
+                "Libelle": "optimisation de la conception",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "10.5",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              },
+              {
+                "Code_EE": "169923806",
+                "Libelle": "atelier:eco-conception",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "",
+                "Volume_Horaire": {
+                  "Cours": "",
+                  "TD": "21",
+                  "TP": "",
+                  "C_Int": "",
+                  "Total": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "6",
+        "Modules": [
+          {
+            "Libelle": "Stage fin d'études",
+            "Cr_Module": "30",
+            "Coef_Module": "15",
+            "Subjects": [
+              {
+                "Code_EE": "573810611",
+                "Libelle": "Stage fin d'études",
+                "Coef_Subject": "15",
+                "Cr_Subject": "30",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Parcours": "Energies Renouvelables",
+    "Semestres": [
+      {
+        "Semestre": "1",
+        "Modules": [
+          {
+            "Libelle": "Conception et modélisation 1",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498111",
+                "Libelle": "Mécanique 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498112",
+                "Libelle": "Conception 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498113",
+                "Libelle": "Atelier",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Matériaux et procédés 1",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498116",
+                "Libelle": "Atelier",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498115",
+                "Libelle": "Siences des matériaux 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498114",
+                "Libelle": "Procédés 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electricité 1",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498117",
+                "Libelle": "Electronique",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498118",
+                "Libelle": "Electrotechnique",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498119",
+                "Libelle": "Atelier : Electricité 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mathématiques 1",
+            "Cr_Module": "5",
+            "Coef_Module": "2.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498121",
+                "Libelle": "Algébre 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498120",
+                "Libelle": "Analyse 1",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et Compétences 1",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "574498122",
+                "Libelle": "English for Sientific Purposes 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498123",
+                "Libelle": "Techniques avancées de communications 1",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "2",
+        "Modules": [
+          {
+            "Libelle": "Conception et Modélisation 2",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498124",
+                "Libelle": "Mécanique 2",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498126",
+                "Libelle": "Atelier : Mécanique 2/ CAO",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "42",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498125",
+                "Libelle": "Conception 2",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Matériaux et procédés 2",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498128",
+                "Libelle": "Sciences des matériaux 2",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498127",
+                "Libelle": "Procédés 2",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574498129",
+                "Libelle": "Atelier",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Electricité 2/ Informatique",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498131",
+                "Libelle": "Algorithmique et programmation",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498130",
+                "Libelle": "Circuits et Shémas électriques",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498132",
+                "Libelle": "Atelier",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Mathématiques 2",
+            "Cr_Module": "5",
+            "Coef_Module": "2.5",
+            "Subjects": [
+              {
+                "Code_EE": "574498134",
+                "Libelle": "Statistiques",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498133",
+                "Libelle": "Analyse 2",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          },
+          {
+            "Libelle": "Langues et Compétences 2",
+            "Cr_Module": "4",
+            "Coef_Module": "2",
+            "Subjects": [
+              {
+                "Code_EE": "574498136",
+                "Libelle": "Techniques avancées de communication 2",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              },
+              {
+                "Code_EE": "574498135",
+                "Libelle": "English for scientific purposes 2",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "10.5",
+                  "TD": "10.5",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Semestre": "3",
+        "Modules": [
+          {
+            "Libelle": "Mécanique des Fluides et Thermique",
+            "Cr_Module": "7",
+            "Coef_Module": "3.5",
+            "Subjects": [
+              {
+                "Code_EE": "574405321",
+                "Libelle": "Mécanique des Fluides(Statique,Dynamique des Fluides)",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574405322",
+                "Libelle": "Thermique Industrielle(Thermodynamique et Transfert)",
+                "Coef_Subject": "1.25",
+                "Cr_Subject": "2.5",
+                "Rg": "MX",
+                "Volume_Horaire": {
+                  "Cours": "21",
+                  "TD": "21",
+                  "TP": "0",
+                  "C_Int": "",
+                  "Total": "42"
+                }
+              },
+              {
+                "Code_EE": "574405323",
+                "Libelle": "Atelier:Mécanique des Fluides/Thermique",
+                "Coef_Subject": "1",
+                "Cr_Subject": "2",
+                "Rg": "CC",
+                "Volume_Horaire": {
+                  "Cours": "0",
+                  "TD": "0",
+                  "TP": "21",
+                  "C_Int": "",
+                  "Total": "21"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
