@@ -28,10 +28,8 @@ def normalize_text(text):
     return text
 
 def find_best_qa_match(user_question, qa_data):
-    """Find the best matching Q&A from training data with improved accuracy"""
+    """Find the best matching Q&A from training data"""
     user_norm = normalize_text(user_question)
-    user_words = set(user_norm.split())
-    
     best_match = None
     best_score = 0
     
@@ -40,25 +38,11 @@ def find_best_qa_match(user_question, qa_data):
             # Check similarity with question
             q_score = similarity(user_norm, normalize_text(qa['question']))
             
-            # Check keyword matches with word boundaries
+            # Check keyword matches
             keyword_score = 0
-            keyword_matches = 0
             for keyword in qa.get('keywords', []):
-                keyword_norm = normalize_text(keyword)
-                keyword_words = set(keyword_norm.split())
-                
-                # Exact phrase match (higher weight)
-                if keyword_norm in user_norm:
-                    keyword_score += 0.5
-                    keyword_matches += 1
-                # Word overlap match (lower weight)
-                elif keyword_words & user_words:
-                    keyword_score += 0.2
-                    keyword_matches += 0.5
-            
-            # Boost score if multiple keywords match
-            if keyword_matches >= 2:
-                keyword_score *= 1.5
+                if normalize_text(keyword) in user_norm:
+                    keyword_score += 0.3
             
             total_score = q_score + keyword_score
             
@@ -66,8 +50,8 @@ def find_best_qa_match(user_question, qa_data):
                 best_score = total_score
                 best_match = qa
     
-    # Return match if score is good enough (increased threshold)
-    if best_score > 0.5:
+    # Return match if score is good enough
+    if best_score > 0.4:
         return best_match['answer'], best_score
     
     return None, 0
@@ -134,19 +118,17 @@ def calculate_master_stats(master_data, parcours_name):
     return None
 
 def get_smart_response(user_question, all_data, qa_data):
-    """Generate intelligent response with improved accuracy"""
+    """Generate intelligent response"""
     question_lower = user_question.lower()
     question_norm = normalize_text(user_question)
-    question_words = set(question_norm.split())
     
     # Try to find match in Q&A training data first
     qa_answer, qa_score = find_best_qa_match(user_question, qa_data)
-    if qa_answer and qa_score > 0.7:
+    if qa_answer and qa_score > 0.6:
         return f"<strong>✅ Réponse:</strong><br><br>{qa_answer}"
     
-    # Greetings (check first to avoid false matches)
-    greeting_words = ['ahla', 'salam', 'aslema', 'labes', 'chnahwelek', 'aychek', 'bonjour', 'salut', 'hello', 'hi']
-    if any(word in question_lower for word in greeting_words) and len(question_words) <= 3:
+    # Greetings
+    if any(word in question_lower for word in ['ahla', 'salam', 'aslema', 'labes', 'chnahwelek', 'aychek', 'bonjour', 'salut']):
         return """
         <strong>Ahla w sahla bik! 👋</strong><br>
         <strong>Labes elhamdulillah! 💙</strong><br><br>
@@ -164,103 +146,8 @@ def get_smart_response(user_question, all_data, qa_data):
         Qolli chnowa t7eb ta3ref! 🎓
         """
     
-    # Specific checks for better accuracy
-    
-    # Licences - must have "licence" keyword and NOT "master"
-    if ('licence' in question_lower or 'bachelor' in question_lower) and 'master' not in question_lower:
-        # Check if asking for list/types
-        if any(word in question_lower for word in ['quel', 'citer', 'liste', 'disponible', 'type']):
-            pres = all_data.get('presentation', {}).get('Presentation', {})
-            licences = pres.get('Formations', {}).get('Licences', [])
-            if licences:
-                lic_list = "<br>".join([f"• {lic}" for lic in licences])
-                return f"""
-                <strong>🎓 Licences disponibles à l'ISSAT Kairouan:</strong><br><br>
-                {lic_list}<br><br>
-                💡 Veux-tu plus de détails sur une licence spécifique?
-                """
-        
-        # Check if asking for specific licence details
-        if 'informatique' in question_lower or 'isi' in question_lower:
-            if any(word in question_lower for word in ['cours', 'module', 'matiere', 'programme']):
-                return """
-                <strong>📚 Licence en Ingénierie des Systèmes Informatiques:</strong><br><br>
-                <strong>Modules principaux:</strong><br>
-                • Programmation (C, Java, Python)<br>
-                • Bases de données<br>
-                • Réseaux informatiques<br>
-                • Systèmes d'exploitation<br>
-                • Génie logiciel<br>
-                • Intelligence artificielle<br>
-                • Développement web<br>
-                • Sécurité informatique<br><br>
-                <strong>Durée:</strong> 6 semestres (3 ans)<br>
-                <strong>Total:</strong> 180 crédits<br><br>
-                💡 Veux-tu plus de détails sur un semestre spécifique?
-                """
-    
-    # Masters - must have "master" keyword
-    if 'master' in question_lower and 'automatique' not in question_lower and 'data science' not in question_lower:
-        # Check if asking for list/types
-        if any(word in question_lower for word in ['quel', 'citer', 'liste', 'disponible', 'type', 'programme']):
-            pres = all_data.get('presentation', {}).get('Presentation', {})
-            masters_rech = pres.get('Formations', {}).get('Masters_Recherche', [])
-            masters_pro = pres.get('Formations', {}).get('Masters_Professionnels', [])
-            
-            response = "<strong>🎓 Masters disponibles à l'ISSAT Kairouan:</strong><br><br>"
-            
-            if masters_rech:
-                response += "<strong>Masters Recherche:</strong><br>"
-                response += "<br>".join([f"• {m}" for m in masters_rech])
-                response += "<br><br>"
-            
-            if masters_pro:
-                response += "<strong>Masters Professionnels:</strong><br>"
-                response += "<br>".join([f"• {m}" for m in masters_pro])
-                response += "<br><br>"
-            
-            response += "💡 Veux-tu plus de détails sur un master spécifique?"
-            return response
-    
-    # Organigramme - specific check
-    if 'organigramme' in question_lower or ('structure' in question_lower and 'administrative' in question_lower):
-        pres = all_data.get('presentation', {}).get('Presentation', {})
-        directeur = pres.get('Direction', {}).get('Directeur', 'Non disponible')
-        sec_gen = pres.get('Direction', {}).get('Secretaire_general', 'Non disponible')
-        
-        return f"""
-        <strong>🏛️ Structure Administrative de l'ISSAT Kairouan:</strong><br><br>
-        <strong>Direction:</strong><br>
-        • Directeur: {directeur}<br>
-        • Secrétaire Général: {sec_gen}<br><br>
-        <strong>Départements:</strong><br>
-        • Département Informatique<br>
-        • Département Génie Mécanique<br>
-        • Département Génie Énergétique<br>
-        • Département Électronique, Électrotechnique & Automatique<br><br>
-        <strong>Services:</strong><br>
-        • Service Scolarité<br>
-        • Service des Stages<br>
-        • Service Financier<br>
-        • Bibliothèque<br><br>
-        💡 Veux-tu plus de détails sur un département?
-        """
-    
-    # Coefficient - specific check
-    if 'coefficient' in question_lower and 'master' not in question_lower:
-        return """
-        <strong>📊 Système de Coefficients à l'ISSAT:</strong><br><br>
-        Les coefficients sont utilisés pour calculer la moyenne générale.<br><br>
-        <strong>Pour connaître le coefficient d'une matière spécifique:</strong><br>
-        • Précise le nom de la matière<br>
-        • Précise le programme (Licence ou Master)<br>
-        • Précise le semestre<br><br>
-        <strong>Exemple:</strong> "Quel est le coefficient de Programmation C en licence informatique?"<br><br>
-        💡 Quelle matière t'intéresse?
-        """
-    
     # Master Automatique detailed questions
-    if 'automatique' in question_lower or 'informatique industrielle' in question_lower:
+    if any(word in question_lower for word in ['automatique', 'informatique industrielle']):
         master_data = all_data.get('master_recherche', [])
         stats = calculate_master_stats(master_data, 'automatique')
         
@@ -333,8 +220,13 @@ def get_smart_response(user_question, all_data, qa_data):
                         💡 Veux-tu plus de détails sur une matière?
                         """
     
-    # Director - specific check
-    if 'directeur' in question_lower or 'director' in question_lower:
+    # If Q&A match exists but score is medium, return it with disclaimer
+    if qa_answer and qa_score > 0.4:
+        return f"<strong>💡 Je pense que tu demandes:</strong><br><br>{qa_answer}<br><br><em>Si ce n'est pas ce que tu cherchais, reformule ta question!</em>"
+    
+    # Basic responses from previous chatbot
+    # Director
+    if any(word in question_lower for word in ['directeur', 'director']):
         pres = all_data.get('presentation', {}).get('Presentation', {})
         directeur = pres.get('Direction', {}).get('Directeur', 'Non disponible')
         sec_gen = pres.get('Direction', {}).get('Secretaire_general', 'Non disponible')
@@ -345,49 +237,41 @@ def get_smart_response(user_question, all_data, qa_data):
         💡 Besoin d'autres informations?
         """
     
-    # Attestation de présence - specific check
-    if 'attestation' in question_lower and 'présence' in question_lower or 'attestation presence' in question_lower:
-        procedures = all_data.get('admin_procedures', [])
-        for proc in procedures:
-            if proc.get('id') == 'attestation_presence':
-                steps = '<br>'.join(proc.get('steps', []))
-                docs = '<br>'.join([f"• {doc}" for doc in proc.get('documents', [])])
-                conditions = '<br>'.join([f"• {cond}" for cond in proc.get('conditions', [])])
-                return f"""
-                <strong>📋 Attestation de Présence:</strong><br><br>
-                <strong>Description:</strong> {proc.get('description', '')}<br><br>
-                <strong>Procédure:</strong><br>{steps}<br><br>
-                <strong>Documents requis:</strong><br>{docs}<br><br>
-                <strong>Conditions:</strong><br>{conditions}<br><br>
-                <strong>Délai:</strong> {proc.get('deadlines', '')}<br>
-                <strong>Coût:</strong> {proc.get('cost', '')}<br>
-                <strong>Bureau:</strong> {proc.get('office', '')}<br><br>
-                <strong>Note:</strong> {proc.get('notes', '')}
-                """
+    # Licences
+    if any(word in question_lower for word in ['licence', 'licences', 'bachelor']) and 'master' not in question_lower:
+        pres = all_data.get('presentation', {}).get('Presentation', {})
+        licences = pres.get('Formations', {}).get('Licences', [])
+        if licences:
+            lic_list = "<br>".join([f"• {lic}" for lic in licences])
+            return f"""
+            <strong>🎓 Licences disponibles à l'ISSAT Kairouan:</strong><br><br>
+            {lic_list}<br><br>
+            💡 Veux-tu plus de détails sur une licence?
+            """
     
-    # Réclamation détaillée - specific check
-    if 'réclamation' in question_lower or 'reclamation' in question_lower:
-        if 'note' in question_lower:
-            procedures = all_data.get('admin_procedures', [])
-            for proc in procedures:
-                if proc.get('id') == 'reclamation_notes':
-                    steps = '<br>'.join(proc.get('steps', []))
-                    docs = '<br>'.join([f"• {doc}" for doc in proc.get('documents', [])])
-                    notes = '<br>'.join([f"• {note}" for note in proc.get('important_notes', [])])
-                    motifs = '<br>'.join([f"• {motif}" for motif in proc.get('motifs_reclamation', [])])
-                    return f"""
-                    <strong>📋 Réclamation de Note:</strong><br><br>
-                    <strong>Description:</strong> {proc.get('description', '')}<br><br>
-                    <strong>Procédure:</strong><br>{steps}<br><br>
-                    <strong>Documents requis:</strong><br>{docs}<br><br>
-                    <strong>Délai:</strong> {proc.get('deadlines', '')}<br>
-                    <strong>Coût:</strong> {proc.get('cost', '')}<br><br>
-                    <strong>⚠️ Points importants:</strong><br>{notes}<br><br>
-                    <strong>Motifs valables:</strong><br>{motifs}
-                    """
+    # Masters
+    if any(word in question_lower for word in ['master', 'masters', 'mastere']) and 'automatique' not in question_lower:
+        pres = all_data.get('presentation', {}).get('Presentation', {})
+        masters_rech = pres.get('Formations', {}).get('Masters_Recherche', [])
+        masters_pro = pres.get('Formations', {}).get('Masters_Professionnels', [])
+        
+        response = "<strong>🎓 Masters disponibles à l'ISSAT Kairouan:</strong><br><br>"
+        
+        if masters_rech:
+            response += "<strong>Masters Recherche:</strong><br>"
+            response += "<br>".join([f"• {m}" for m in masters_rech])
+            response += "<br><br>"
+        
+        if masters_pro:
+            response += "<strong>Masters Professionnels:</strong><br>"
+            response += "<br>".join([f"• {m}" for m in masters_pro])
+            response += "<br><br>"
+        
+        response += "💡 Veux-tu plus de détails sur un master?"
+        return response
     
-    # Absence rules - specific check
-    if 'absence' in question_lower or 'absent' in question_lower or 'justif' in question_lower:
+    # Absence rules
+    if any(word in question_lower for word in ['absence', 'absent', 'justif']):
         rules = all_data.get('absences_rules', {})
         return f"""
         <strong>📋 Règles d'absence:</strong><br><br>
@@ -398,8 +282,8 @@ def get_smart_response(user_question, all_data, qa_data):
         <strong>❌ Élimination:</strong> {rules.get('elimination_logic', '')}
         """
     
-    # ISSAT info - specific check
-    if 'issat' in question_lower or 'institut' in question_lower or 'creation' in question_lower or 'créé' in question_lower or 'fondation' in question_lower:
+    # ISSAT info
+    if any(word in question_lower for word in ['issat', 'institut', 'kairouan', 'creation', 'créé']):
         pres = all_data.get('presentation', {}).get('Presentation', {})
         etab = pres.get('Etablissement', {})
         creation = pres.get('Creation', {})
@@ -414,11 +298,7 @@ def get_smart_response(user_question, all_data, qa_data):
         💡 Veux-tu en savoir plus?
         """
     
-    # If Q&A match exists but score is medium, return it with disclaimer
-    if qa_answer and qa_score > 0.5:
-        return f"<strong>💡 Je pense que tu demandes:</strong><br><br>{qa_answer}<br><br><em>Si ce n'est pas ce que tu cherchais, reformule ta question!</em>"
-    
-    # Default fallback with better suggestions
+    # Default fallback
     return """
     <strong>🤔 Je n'ai pas bien compris ta question...</strong><br><br>
     💡 <strong>Exemples de questions:</strong><br>
@@ -435,7 +315,7 @@ print("🔄 Loading data...")
 all_data = {}
 files = [
     "presentation.json", "admin_procedures.json", "absences_rules.json",
-    "enseignant.json", "licence.json", "licence_details.json", "master_professionnelle.json",
+    "enseignant.json", "licence.json", "master_professionnelle.json",
     "master_recherche.json", "directeur_responsable.json",
     "conseil_scientifique.json", "organigramme.json", "general_institute.json"
 ]
